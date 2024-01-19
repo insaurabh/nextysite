@@ -26,3 +26,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
     1. Create folder for each route
     2. Create folder with [folder-name] for dynamic route
     3. Create folder with (group-name) to group routes related, e.g auth routes. Group name will be part of routes
+    4. Layouts
+        1. loading.jsx|tsx It will be used to show the loading state in slow network. We can define per route level as well. Just declare in each route folder.
+        2. error.jsx|tsx It will be used to show errors.We will handle errors here as well.
+        3. not-found.jsx|tsx To show your own custom 404 page.
