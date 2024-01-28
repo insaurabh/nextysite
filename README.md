@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+I am working on this to explore more nextJS new features.
+
 ## Getting Started
 
 First, run the development server:
@@ -30,8 +32,10 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
         1. loading.jsx|tsx It will be used to show the loading state in slow network. We can define per route level as well. Just declare in each route folder.
         2. error.jsx|tsx It will be used to show errors.We will handle errors here as well.
         3. not-found.jsx|tsx To show your own custom 404 page.
-    5. Styling
-        1. We can create modular css. Convert css file as navbar.module.css and import in files. Next will provide dynamic  names to each classes.
-
-
-https://youtu.be/vCOSTG10Y4o?si=Ht9OkPM0IHsYa1Gk
+2. Styling
+    1. We can create modular css. Convert css file as navbar.module.css and import in files. Next will provide dynamic  names to each classes.
+3. Image
+    1. <Image src="/image-path-in-public-folder">
+    2. We can pass width and height OR Wrap the image inside div and apply the height/width there
+    3. Next/img resize the image based on screen size
+    4. We can use external image as well. To use this update next.config.js to allow domain. 🚀
