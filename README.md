@@ -2,6 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 I am working on this to explore more nextJS new features.
 
+[Demo](https://nextysite.vercel.app/)
 ## Getting Started
 
 First, run the development server:
@@ -35,7 +36,11 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 2. Styling
     1. We can create modular css. Convert css file as navbar.module.css and import in files. Next will provide dynamic  names to each classes.
 3. Image
-    1. <Image src="/image-path-in-public-folder">
+    1. < Image src="/image-path-in-public-folder">
     2. We can pass width and height OR Wrap the image inside div and apply the height/width there
     3. Next/img resize the image based on screen size
     4. We can use external image as well. To use this update next.config.js to allow domain. 🚀
+
+
+## These may happen 💁
+1. On windows import NavLink from "./navLink/navLink"; or import NavLink from "./navLink/NavLink"; were same but when deployed it created issues. Make sure to imports modules in case-sensitive manner.
