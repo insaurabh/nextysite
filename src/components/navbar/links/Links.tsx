@@ -6,7 +6,20 @@ import NavLink from "./navLink/navLink";
 import Image from "next/image";
 // import { handleLogout } from "@/lib/action";
 
-const links = [
+interface Link {
+    title: string;
+    path: string;
+}
+
+interface LinksProps {
+    session: {
+        user?: {
+            isAdmin: boolean;
+        };
+    };
+}
+
+const links: Link[] = [
     {
         title: "Homepage",
         path: "/",
@@ -25,7 +38,8 @@ const links = [
     },
 ];
 
-const Links = ({ session }) => {
+
+const Links: React.FC<LinksProps> = ({ session }) => {
     const [open, setOpen] = useState(false);
 
     return (

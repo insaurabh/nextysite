@@ -14,7 +14,7 @@ function Navbar() {
                 </Link>
             </div>
             <div>
-                <Links />
+                <Links session={{}} />
             </div>
         </div>
     )
