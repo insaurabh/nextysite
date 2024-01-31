@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex flex-col justify-between min-h-6 w-[80rem] m-auto pl-4 pr-4">
+        <div className="flex flex-col justify-between min-h-[700px] w-[80rem] m-auto pl-4 pr-4">
           <SpeedInsights />
           <Analytics />
           <Navbar />

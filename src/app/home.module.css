@@ -1,0 +1,9 @@
+.imageContainer {
+    position: relative;
+    width: 50rem;
+    height: 20rem;
+}
+
+.cta {
+   margin-right: 3px;
+}

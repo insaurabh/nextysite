@@ -44,3 +44,6 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## These may happen 💁
 1. On windows import NavLink from "./navLink/navLink"; or import NavLink from "./navLink/NavLink"; were same but when deployed it created issues. Make sure to imports modules in case-sensitive manner.
+
+
+1:10
